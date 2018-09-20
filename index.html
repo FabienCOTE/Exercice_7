@@ -8,35 +8,36 @@
   <body>
     <form method="post" action="">
       <fieldset class="color1">
-        <legend>Votre identité</legend>
-        <label for="nom">1. Nom :</label>
-        <input type="text" name="nom" id="nom" />
-        <label for="prenom">2. Prénom :</label>
-        <input type="text" name="prenom" id="prenom" />
-        <label for="email">3. Adresse mail :</label>
-        <input type="email" name="email" id="email" />
+        <legend class="color1">Votre identité</legend>
+        <label class="right1" for="nom">1. Nom :</label>
+        <input class="line" type="text" name="nom" id="nom" placeholder="Nom" />
+        <label class="right1" for="prenom">2. Prénom :</label>
+        <input class="line" type="text" name="prenom" id="prenom" placeholder="Prénom" />
+        <label class="right1" for="email">3. Adresse mail :</label>
+        <input type="email" name="email" id="email" placeholder="Adresse mail" />
       </fieldset>
       <fieldset class="color2">
-        <legend>Adresse de livraison</legend>
-        <label for="precisions">1. Adresse :</label>
+        <legend class="color2">Adresse de livraison</legend>
+        <label class="right1" for="adresse">1. Adresse :</label>
         <textarea name="adresse" id="adresse" cols="40" rows="4"></textarea>
-        <input type="text" name="codeposal" id="codepostal" />
-        <label for="prenom">2. Code postal :</label>
-        <input type="text" name="ville" id="ville" />
-        <label for="email">3. Ville :</label>
+        <label class="right1 "for="codepostal">2. Code postal :</label>
+        <input class="line" type="text" name="codeposal" id="codepostal" placeholder="Code postal" />
+        <label class="right1" for="ville">3. Ville :</label>
+        <input type="text" name="ville" id="ville" placeholder="Ville" />
       </fieldset>
       <fieldset class="color3">
-        <legend>Informations de réglement</legend>
+        <legend class="color3">Informations de réglement</legend>
         <p>1. Type de carte bancaire :</p>
-        <input type="radio" name="card" value="visa" id="visa" /> <label for="visa">Visa</label><br />
-        <input type="radio" name="card" value="mastercard" id="mastercard" /> <label for="mastercard">Mastercard</label><br />
-        <label for="nom">2. Numéro de carte :</label>
-        <input type="text" name="nom" id="nom" />
-        <label for="prenom">3. Code de sécurité :</label>
-        <input type="text" name="prenom" id="prenom" />
-        <label for="email">4. Nom du titulaire :</label>
-        <input type="email" name="email" id="email" />
+        <input class="right" type="radio" name="card" value="visa" id="visa" /> <label for="visa">Visa</label><br />
+        <input class="right" type="radio" name="card" value="mastercard" id="mastercard" /> <label for="mastercard">Mastercard</label><br />
+        <label class="right1" for="numbercard">2. Numéro de carte :</label>
+        <input class="line1" type="text" name="numbercard" id="numbercard" placeholder="Numéro de carte" />
+        <label class="right1"for="codecard">3. Code de sécurité :</label>
+        <input class="line1" type="text" name="codecard" id="codecard" placeholder="Code de sécurité" />
+        <label class="right1"for="namecard">4. Nom du titulaire :</label>
+        <input type="email" name="namecard" id="namecard" placeholder="Nom du titulaire" />
       </fieldset>
+      <input type="submit" value="J'achète !" />
     </form>
   </body>
 </html>

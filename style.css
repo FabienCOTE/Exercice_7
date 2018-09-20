@@ -7,3 +7,26 @@
 .color3 {
   background-color: #DB0A5B;
 }
+.right {
+  margin-left: 120px;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+p, .right1{
+  margin-left: 50px;
+}
+
+.line {
+  margin-right: 840px;
+}
+
+.line1 {
+  margin-right: 800px;
+}
+
+textarea {
+  margin-right: 780px;
+}
